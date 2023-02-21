@@ -1,0 +1,122 @@
+.parent,.title{font-size: 70px;}
+li{
+    display: inline;
+    margin: 10px;
+}
+.parent .child .title{
+    color: red;
+}
+.parent .title{
+    color: blue;
+}
+.parent p ,.title{
+    color: green;
+}
+.shadow{
+    margin: 20px;
+    padding: 20px;
+    background-color: beige;
+    text-align: center;
+    font-weight: bold;
+    font-size: 70px;
+   text-shadow: .9px .9px 0 red, 1.5px 1.5px 0 rgb(71, 252, 228), 2px 2px 0 rgb(255, 42, 237);
+}
+.one,
+.two,
+.three{
+    margin: 20px;
+    padding: 20px;
+    background-color: beige;
+    text-align: center;
+    font-weight: bold;
+    font-size: 70px;
+}
+.one{
+    text-transform: uppercase;
+}
+.two{
+    text-transform: capitalize;
+}
+.three{
+    text-transform: lowercase;
+}
+.cells{
+    background-color: rgb(109, 255, 11);
+    width: 1000px;
+    margin: 20px auto;
+}
+.cells1,
+.cells2,
+.cells3,
+.cells4{
+background-color: aqua;
+font-weight: bold;
+margin-top: 15px;
+float: left;
+margin-left: 15px;
+padding: 10px 0;
+text-align: center;
+}
+.cells1{
+        width: calc(100% - 30px);
+}
+.cells2{
+    width: calc((100% - 60px) / 3);
+}
+.cells3{
+    width: calc((100% - 45px) / 2);
+}
+.cells4{
+    width: calc((100% - 75px) / 4);
+    margin-bottom: 15px;
+}
+.clear{
+    clear: both;
+}
+.task5{
+    width: 400px;
+    background-color: #eee;
+    padding: 20px;
+    margin: 20px auto;
+    border: 2px solid;
+    border-color: #f44336 #2196f3;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.top-left{
+    background-color: #2196f3;
+    color: white;
+    padding: 5px 15px;
+    border-right: 2px solid #f44336;
+    position: absolute;
+    top: -15px;
+    left: -20px;
+}
+.top-right{
+    background-color: #2196f3;
+    color: white;
+    padding: 5px 15px;
+    border-left: 2px solid #f44336;
+    position: absolute;
+    top: -15px;
+    right: -20px;
+}
+.bottom-left{
+    background-color: #2196f3;
+    color: white;
+    padding: 5px 15px;
+    border-right: 2px solid #f44336;
+    position: absolute;
+    bottom: -15px;
+    left: -20px;
+}
+.bottom-right{
+    background-color: #2196f3;
+    color: white;
+    padding: 5px 15px;
+    border-left: 2px solid #f44336;
+    position: absolute;
+    bottom: -15px;
+    right: -20px;
+}
